@@ -1,6 +1,56 @@
 html{
     scroll-behavior:smooth;
 }
+header{
+
+transition:.3s;
+
+}
+
+header.scrolled{
+
+background:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+#topBtn{
+
+position:fixed;
+
+right:25px;
+
+bottom:25px;
+
+width:50px;
+
+height:50px;
+
+border:none;
+
+border-radius:50%;
+
+cursor:pointer;
+
+font-size:22px;
+
+display:none;
+
+background:#222;
+
+color:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+transition:.3s;
+
+}
+
+#topBtn:hover{
+
+transform:translateY(-4px);
+
+}
 /* ==========================
    ABOUT
 ========================== */
