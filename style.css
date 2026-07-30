@@ -399,3 +399,42 @@ font-size:.9rem;
 color:#666;
 
 }
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:2.2rem;
+
+}
+
+.hero-image img{
+
+width:200px;
+
+height:200px;
+
+}
+
+.project-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.skills-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+}
